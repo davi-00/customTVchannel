@@ -71,7 +71,7 @@ def scan_library():
     conn.close()
     print(f"[SCAN] Completato — aggiunti: {added}, saltati: {skipped}")
 
-
+#
 if __name__ == "__main__":
     from database import init_db
     init_db()
